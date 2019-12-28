@@ -2,7 +2,12 @@
 
 We built this tiny React Native Mobile App as part of the ["Mobile development for complete beginners" workshop](https://events.ccc.de/congress/2019/wiki/index.php/Session:Mobile_App_Entwicklung_f%C3%BCr_totale_Anf%C3%A4nger) at the 36th edition of the Chaos Communication Congress.
 
-The slides of the talk can be viewed [here](https://docs.google.com/presentation/d/1SRET00zlK8-jbwDSuPjmKNOL4gCwnX2KHSRCOui2WUE/)
+* The slides of the talk can be viewed [here](https://docs.google.com/presentation/d/1bnmqbsCyadH6mohw3NCwwaZyepih6JnT-aEFQxlRY1Q/)
+* The app is [published on expo](https://expo.io/@andrusch/instagram)
+
+<div align="center">
+  <img src="./assets/app-preview.gif" width="250" alt="App Preview">
+</div>
 
 ## How to run
 
@@ -25,13 +30,13 @@ Run the following commands in your **terminal**:
 3. Install dependencies
 
     ```
-    yarn
+    npm install
     ```
 
 4. Start the expo development server
 
     ```
-    yarn start
+    npm start
     ```
 
 ## How to make changes
