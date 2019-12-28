@@ -2,62 +2,71 @@ import React, { useEffect, useState } from 'react';
 import { StyleSheet, Text, View, FlatList, Image, TouchableOpacity, Alert } from 'react-native';
 import Constants from 'expo-constants';
 
-function Item({ author, url }) {
+const Item = ({ author, download_url }) => {
   return (
     <TouchableOpacity
       style={styles.item}
-      onPress={() => Alert.alert(
-        'Author',
-        author,
-        [
-          {text: 'Ok'},
-        ],
-        {cancelable: false},
-      )}
+      onPress={() => {
+        Alert.alert(
+          'Author',
+          author,
+          [
+            {text: 'OK'},
+          ],
+          {cancelable: false},
+        );
+      }}
     >
       <Image
-        source={{ uri: url }}
-        style={{ width: 300, height: 300 }}
-      />
+          style={{width: 300, height: 300}}
+          source={{uri: download_url}}
+        />
     </TouchableOpacity>
   );
 }
 
 export default function App() {
   const [data, setData] = useState([]);
+
   useEffect(() => {
-    fetch('https://picsum.photos/v2/list?page=2&limit=100')
+    fetch('https://picsum.photos/v2/list?page=1&limit=100')
       .then(response => response.json())
       .then(data => setData(data));
-  }, []);
+  }, [])
+
 
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Photos</Text>
+      <View style={styles.header}>
+        <Text style={styles.headerText}>Photos</Text>
+      </View>
       <FlatList
         data={data}
-        renderItem={({ item }) => <Item author={item.author} url={item.download_url} />}
+        renderItem={({ item }) => <Item author={item.author} download_url={item.download_url} />}
         keyExtractor={item => item.id}
       />
     </View>
   );
 }
 
+
+
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-
     marginTop: Constants.statusBarHeight,
+    alignItems: 'center',
   },
   header: {
-    fontSize: 20,
     paddingVertical: 10,
+    alignItems: 'center',
+  },
+  headerText: {
+    fontSize: 22,
   },
   item: {
-    marginVertical: 5,
+    marginVertical: 8,
+    marginHorizontal: 16,
   },
   title: {
     fontSize: 32,
