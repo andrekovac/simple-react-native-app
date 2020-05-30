@@ -28,7 +28,7 @@
    npm install expo-cli --global
    ```
 
-Falls du Fehler bekommst, beachte bitte die [möglichen Fehler](#mögliche-fehler).
+    Falls du Fehler bekommst, beachte bitte die [möglichen Fehler](#mögliche-fehler).
 
 3. Registriere dich bei [Expo](https://expo.io/).
 
