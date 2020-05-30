@@ -3,39 +3,38 @@
 ## Voraussetzung für die Erstellung der App
 
 1. [Node.js](https://nodejs.org/en/) installieren.
-
    Mache dazu das Folgende:
 
-  1. Gehe auf [nodejs.org](https://nodejs.org/de/) und lade die `LTS` version für dein Betriebssystem herunter (nicht die `Aktuell` version)
-  2. Stelle sicher, dass der `node` Befehl installiert ist. Dazu öffnest du das **Terminal** (auf Windows: **Eingabeaufforderung**) und gibst folgendes ein:
+   1. Gehe auf [nodejs.org](https://nodejs.org/de/) und lade die `LTS` version für dein Betriebssystem herunter (nicht die `Aktuell` version)
 
-  ```bash
-  node -v && npm -v
-  ```
+   2. Stelle sicher, dass der `node` Befehl installiert ist. Dazu öffnest du das **Terminal** (auf Windows: **Eingabeaufforderung**) und gibst folgendes ein:
 
-  Wenn du so etwas Ähnliches als Output direkt unter deiner Eingabe bekommst, ist alles gut:
+      ```bash
+      node -v && npm -v
+      ```
 
-  ```bash
-  v10.14.1
-  6.14.4
-  ```
+      Wenn du so etwas Ähnliches als Output direkt unter deiner Eingabe bekommst, ist alles gut:
 
-  Die Zahlen können gerne anders sein, es sollte bloß kein Fehler erscheinen wie `-bash: node: command not found` oder so.
+      ```bash
+      v10.14.1
+      6.14.4
+      ```
+
+      Die Zahlen können gerne anders sein, es sollte bloß kein Fehler erscheinen wie `-bash: node: command not found` oder so.
 
 2. Öffne ein Terminal bzw. eine Kommandozeile und führe darin den folgenden Befehl aus:
 
-  ```
-  npm install expo-cli --global
-  ```
+   ```
+   npm install expo-cli --global
+   ```
 
-  Falls du Fehler bekommst, beachte bitte die [möglichen Fehler](#mögliche-fehler).
+Falls du Fehler bekommst, beachte bitte die [möglichen Fehler](#mögliche-fehler).
 
 3. Registriere dich bei [Expo](https://expo.io/).
 
 4. Installiere [Visual Studio Code](https://code.visualstudio.com/) auf deinem Rechner.
 
 5. Lade dir die **Expo Client** App für das [iPhone](https://apps.apple.com/us/app/expo-client/id982107779) oder [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_US) herunter.
-
 
 ## Fehler, die bei der Installation von `node.js` auftreten können
 
@@ -44,8 +43,8 @@
 - Try executing the command with `sudo`, for example `sudo npm install` instead of `npm install`.
 - On Mac systems, if you are not the `Admin` user you can't even use `sudo`.
 
-    1. In this case login as your admin user and run `sudo visudo` (or `sudo EDITOR=vi visudo` in case the former throws the error `visudo: specified editor (vscode) doesn't exist`) in the command line.
-    2. Duplicate the `%admin    ALL=(ALL) ALL` line and replace `%admin` with the username of the standard user your want to five the permissions [as described here](https://apple.stackexchange.com/questions/100703/how-do-i-run-sudo-command-from-standard-account#answer-100704).
+  1. In this case login as your admin user and run `sudo visudo` (or `sudo EDITOR=vi visudo` in case the former throws the error `visudo: specified editor (vscode) doesn't exist`) in the command line.
+  2. Duplicate the `%admin ALL=(ALL) ALL` line and replace `%admin` with the username of the standard user your want to five the permissions [as described here](https://apple.stackexchange.com/questions/100703/how-do-i-run-sudo-command-from-standard-account#answer-100704).
 
 ### Windows: Mögliche Fehler
 
