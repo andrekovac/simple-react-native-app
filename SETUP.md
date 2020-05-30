@@ -30,11 +30,11 @@
 
     Falls du Fehler bekommst, beachte bitte die [möglichen Fehler](#mögliche-fehler).
 
-3. Registriere dich bei [Expo](https://expo.io/).
+3. Installiere [Visual Studio Code](https://code.visualstudio.com/) auf deinem Rechner.
 
-4. Installiere [Visual Studio Code](https://code.visualstudio.com/) auf deinem Rechner.
+4. Registriere dich bei [Expo](https://expo.io/).
 
-5. Lade dir die **Expo Client** App für das [iPhone](https://apps.apple.com/us/app/expo-client/id982107779) oder [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_US) herunter.
+5. Lade dir die **Expo Client** App für das [iPhone](https://apps.apple.com/us/app/expo-client/id982107779) oder [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_US) herunter und logge dich mit deinem Expo Account ein.
 
 ## Fehler, die bei der Installation von `node.js` auftreten können
 
