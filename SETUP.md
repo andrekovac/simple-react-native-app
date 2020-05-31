@@ -36,7 +36,7 @@
 
 5. Lade dir die **Expo Client** App für das [iPhone](https://apps.apple.com/us/app/expo-client/id982107779) oder [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_US) herunter und logge dich mit deinem Expo Account ein.
 
-## Fehler, die bei der Installation von `node.js` auftreten können
+## Mögliche Fehler
 
 ### `Permission denied` or similar
 
@@ -46,7 +46,7 @@
   1. In this case login as your admin user and run `sudo visudo` (or `sudo EDITOR=vi visudo` in case the former throws the error `visudo: specified editor (vscode) doesn't exist`) in the command line.
   2. Duplicate the `%admin ALL=(ALL) ALL` line and replace `%admin` with the username of the standard user your want to five the permissions [as described here](https://apple.stackexchange.com/questions/100703/how-do-i-run-sudo-command-from-standard-account#answer-100704).
 
-### Windows: Mögliche Fehler
+### Windows
 
 Wenn dein Betriebsystem **Windows** ist und du einen der folgenden Fehler siehst:
 
