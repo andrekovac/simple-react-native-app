@@ -28,6 +28,8 @@
    npm install expo-cli --global
    ```
     
+    Wenn du `expo --version` ausführst und keinen Fehler erhältst und dir eine Version angezeigt wird (z.B. `3.21.3`) dann hat alles gut geklappt!
+    
     Wenn du nicht Administrator bist, Häufig dir häufig Nutzungsrechte. Führe dann diesen Befehl aus und gebe dein Nutzer-Passwort ein:
     
    ```
