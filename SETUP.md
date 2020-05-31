@@ -27,8 +27,14 @@
    ```
    npm install expo-cli --global
    ```
+    
+    Wenn du nicht Administrator bist, Häufig dir häufig Nutzungsrechte. Führe dann diesen Befehl aus und gebe dein Nutzer-Passwort ein:
+    
+   ```
+   sudo npm install expo-cli --global
+   ```
 
-    Falls du Fehler bekommst, beachte bitte die [möglichen Fehler](#mögliche-fehler).
+   Falls du weiterhin Fehler bekommst, beachte bitte die [möglichen Fehler](#mögliche-fehler).
 
 3. Installiere [Visual Studio Code](https://code.visualstudio.com/) auf deinem Rechner.
 
