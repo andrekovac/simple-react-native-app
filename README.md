@@ -1,5 +1,9 @@
 # A simple React Native App: Pictorio - The image viewer
 
+<div align="center">
+  <img src="./assets/app-preview.gif" width="250" alt="App Preview">
+</div>
+
 ## Setup of your computer to start Expo development
 
 See this [Setup Guide (in German)](./SETUP.md).
@@ -49,7 +53,3 @@ We built this tiny React Native Mobile App as part of the ["Mobile development f
 
 * The slides of the talk can be viewed [here](https://docs.google.com/presentation/d/1bnmqbsCyadH6mohw3NCwwaZyepih6JnT-aEFQxlRY1Q/)
 * The app is [published on expo](https://expo.io/@andrusch/instagram)
-
-<div align="center">
-  <img src="./assets/app-preview.gif" width="250" alt="App Preview">
-</div>
